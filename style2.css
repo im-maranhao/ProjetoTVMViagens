@@ -15,7 +15,7 @@
 .cf:before,
 .cf:after {content: " ";display: table;}
 .cf:after {clear: both;}
-.cf {*zoom: 1;}
+.cf {zoom: 1;}
 body {
 	margin-left:90px; /* espaço à esquerda para a barra vertical vísivel do menu */
 	font:  62.5%/1.2 Verdana, Helvetica, Arial, sans-serif;
@@ -43,7 +43,7 @@ background-image: -moz-linear-gradient(135deg, rgb(255,255,255), rgb(255,255,255
 	}
 #lateral:before {
 	z-index:400;
-	content: url(as.png);
+	content: url(assets/img/as.png);
 	font-size:4em;
 	color: rgb (255,255,255);
 	position:fixed;
